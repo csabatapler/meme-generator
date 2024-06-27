@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  color: #FFF;
+  width: 550px;
+  margin: 0 auto;
+}
+
+#root {
+  margin: 0;
+
+}
+
+header{
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  height: 65px;
+  padding: 10px 29px;
+}
+
+.logo {
+  width: 2em;
+  height: 2em;
+}
+
+header > h1 {
+  font-size: 20.74px;
+  font-weight: 700;
+  letter-spacing: -2.075px;
+  margin-left: 7px;
+}
+
+header > h2 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 0 0 auto;
+  padding: 0; 
+  }
